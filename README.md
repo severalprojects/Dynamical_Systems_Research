@@ -1,12 +1,17 @@
 # The Doubling Map
 This is some code related to the perturbed doubling map, a dynmical system I have been studying under the supervision of Professor Christian Wolf. 
 
-## Test Trajectories
+## Test_Trajectories.pde
+
+This visualization is meant to give a sense of the effect of adjusting the perturbation constant c on the map z -> z^2+c. By default, c is set to 0, so the first thing you see are the trajectories of a test mesh of points iterated 20 times, converging to the fixed point of the unperturbed map (which is the origin). 
+
+Clicking anywhere on the plane sets the perturbation constant to the point clicked, recalculating the trajectories of the points in the test mesh. Notice that if you keep the perturbation constant relatively close to the origin, you retain convergence to some fixed point. Perturbations of higher magnitude cause fewer (if any) points to converge. 
+
 The code can be run by downloading the .pde file and opening with the Processing environment, which can be dowmloaded at https://processing.org/
 
 Alternately, the code can be compiled and run using the .java file, as long as you have the necessary libraries to import, which are included in the folder "lib."
 
-## Periodic Points
+## PeriodicPoints.ipynb
 
 This code is written in Python in a Jupyter notebook. 
 
