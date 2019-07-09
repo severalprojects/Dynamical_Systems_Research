@@ -1,4 +1,7 @@
 # The Doubling Map
+
+![alt text](splash.jpg)
+
 This is some code related to the perturbed doubling map, a dynmical system I have been studying under the supervision of Professor Christian Wolf. 
 
 ## Test_Trajectories.pde
