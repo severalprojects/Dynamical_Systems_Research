@@ -18,7 +18,7 @@ Alternately, the code can be compiled and run using the .java file, as long as y
 
 This code is written in Python in a Jupyter notebook. 
 
-One aspect of the research I am doing involves looking at periodic points (and the associated measures) of the perturbed doubling map. The periodic points of the unperturbed map are straightforward to calculate, but even the smallest perturbation constant makes it very difficult to calculate periodic points very difficult. One computational way of approaching this is to identify the periodic points of the unperturbed map, and then "search" in a neighborhood of these points for the conjugate periodic points of the perturbed map. 
+One aspect of the research I am doing involves looking at periodic points (and the associated measures) of the perturbed doubling map. The periodic points of the unperturbed map are straightforward to calculate, but even the smallest perturbation constant makes it very difficult to calculate periodic points explicitly. One computational way of approaching this is to identify the periodic points of the unperturbed map, and then "search" in a neighborhood of these points for the conjugate periodic points of the perturbed map. 
 
 The first step in this process is to calculate some large number of periodic points of the unperturbed map. I did this and stored the set of points (and their orbits) in a pandas DataFrame, then did some filtering, etc, to remove duplicate orbits. I also identified Sturmian orbits (which are orbits when considered in the complex plane are entirely contained in a semi-circle), which are of particular interest in our research. 
 
