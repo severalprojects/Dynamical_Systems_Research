@@ -14,6 +14,14 @@ The code can be run by downloading the .pde file and opening with the Processing
 
 Alternately, the code can be compiled and run using the .java file, as long as you have the necessary libraries to import, which are included in the folder "lib."
 
+## Julia_set_visualization.pde
+
+Estimates and visualizes the julia set of the perturbed doubling map. Allows for zooming into the boundary of the Julia set (by draggin the mouse in a bounding box around the area to magnify) to observe the fractal structure. Perturbation constant is fixed, but can be adjusted in the first few lines of code (see comment in code). 
+
+<p align="center"> <img src="julia_sets.jpg"></p>
+
+The code can be run by downloading the .pde file and opening with the Processing environment, which can be dowmloaded at https://processing.org/
+
 ## PeriodicPoints.ipynb
 
 This code is written in Python in a Jupyter notebook. 
