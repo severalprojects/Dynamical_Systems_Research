@@ -4,6 +4,27 @@
 
 This is some code related to the perturbed doubling map, a dynmical system I have been studying under the supervision of Professor Christian Wolf. 
 
+## Point_Dynamics
+
+The visualization is useful in getting a first sense of the dynamics of a map called the "perturbed doubling map"
+where the point z (in the complex plane) is mapped to z^2 + c, where c is a complex number we call the 
+"perturbation constant." 
+
+Since there are a discrete number of sample points (the code right now draws and iterates 4000 points), after repeated
+iteration, all points either shoot away into infinity (ie, away from the origin), or are "pulled into" the fixed point
+of the sytem (if you chage the perturbation constant, the fixed point changes location) 
+
+The visualization gives a sense of how the fixed point moves when we change the perturbation constant
+and also the "pattern" of movement of points around the space as we continue to iterate the map. 
+It also gives a sense of "how long" (in terms of number of iterations) until the system becomes stable
+(ie, most points have either flown away to infinity or collapsed to the center). 
+
+Also, it produces some nice patterns, that gives a sense of the regularity/periodicity of this kind of mapping. 
+
+run the code using [processing](https://processing.org/). Click on the grid to iterate the map once. 
+
+# How to interact with the program 
+
 ## Test_Trajectories.pde
 
 This visualization is meant to give a sense of the effect of adjusting the perturbation constant c on the map z -> z^2+c. By default, c is set to 0, so the first thing you see are the trajectories of a test mesh of points iterated 20 times, converging to the attracting fixed point of the unperturbed map (which is the origin). 
