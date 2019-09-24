@@ -19,7 +19,9 @@ and also the "pattern" of movement of points around the space as we continue to 
 It also gives a sense of "how long" (in terms of number of iterations) until the system becomes stable
 (ie, most points have either flown away to infinity or collapsed to the center). 
 
-Also, it produces some nice patterns, that gives a sense of the regularity/periodicity of this kind of mapping. 
+Also, it produces some nice patterns, that gives a sense of the regularity/periodicity of this kind of mapping.
+
+<p align="center"><img src="point_dynamics.jpg"></p>
 
 run the code using [processing](https://processing.org/). Click on the grid to iterate the map once. 
 
