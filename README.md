@@ -30,4 +30,4 @@ One aspect of the research I am doing involves looking at periodic points (and t
 
 The first step in this process is to calculate some large number of periodic points of the unperturbed map. I did this and stored the set of points (and their orbits) in a pandas DataFrame, then did some filtering, etc, to remove duplicate orbits. I also identified Sturmian orbits (which are orbits when considered in the complex plane are entirely contained in a semi-circle), which are of particular interest in our research. 
 
-Moving forward I will use these Sturmian periodic point to center a "search" for periodic points of the perturbed map, which because of conjugacy, we expect to be relatively "close" to the unperturbed orbits. 
+I then use these Sturmian periodic points to center a "search" for periodic points of the perturbed map, which because of conjugacy, we expect to be relatively "close" to the unperturbed orbits. 
